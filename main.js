@@ -7,7 +7,7 @@
   document.querySelector("form").addEventListener("submit", event => {
     event.preventDefault();
     if (heslo.value.toLowerCase() === spravne) {
-      vystup.textContent = "Bingo, to je správná odpověď! 🎉 Gratuluju 👍 Vaše dárečky jsou... chvilka napětí.. u Káti přeci 😄";
+      vystup.textContent = "Bingo, to je správná odpověď! 🎉 Gratuluju 👍 Vaše dárečky jsou... chvilka napětí.. pod postelí 😄";
     } else {
       vystup.textContent = "Safra, to není správné heslo...";
     }
